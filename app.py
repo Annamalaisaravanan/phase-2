@@ -35,6 +35,6 @@ if submit:
            st.warning('Give values to all the input fields')
 
     else:
-            res = requests.post(url = 'https://4mrpu7p4qg4mvharopxafwrpzq0trord.lambda-url.ap-south-1.on.aws/predict',data=json.dumps(inputs)) #localhost - http://127.0.0.1:8000
+            res = requests.post(url = 'https://66oz3onigvtbe6d64n3frjgzaa0ghowl.lambda-url.ap-south-1.on.aws/predict',data=json.dumps(inputs)) #localhost - http://127.0.0.1:8000
 
             st.success('The Total Predicted Sales is {} millions'.format(res.text))
