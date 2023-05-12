@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+numpy
+pandas
+requests
+streamlit
+=======
+numpy
+pandas
+requests
+streamlit
+>>>>>>> faaaefa7312156a9a4bfc2e412bddcffaae01399
